@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* ----------------------------------------- */
@@ -16,7 +17,7 @@ body, html {
 }
 
 body {
-    background: brown;
+    background: #cc6600;
 }
 
 main {
@@ -33,10 +34,11 @@ section {
 
     background: white;
     width: 80vw;
-    height: 83vh;
+    height: 85vh;
     border-radius: 20px;
     overflow: hidden;
     display: inline-block;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 label > span {
@@ -72,7 +74,30 @@ form#loginmoon > p > input.inputsmoon {
     height: 7vh;
     width: 74.6vw;
     margin-bottom: 12px;
-    
+    background-color: rgb(255, 166, 0);
+    border: 2px solid rgb(88, 24, 8);
+    color: rgb(255, 255, 174);
+    border-radius: 5px;
+    font-size: bolder;
+}
+
+form#loginmoon > p > input#forgotmoon {
+    background-color: white;
+    border: 2px solid rgb(180, 100, 3);
+    color: rgb(255, 151, 23);
+    font-size: bolder;
+}
+
+form#loginmoon > p > input.inputsmoon:hover {
+    background-color: rgb(255, 217, 0);
+    color: rgb(88, 24, 8);
+}
+
+form#loginmoon > p > input#forgotmoon:hover {
+    background-color: rgba(255, 255, 0, 0.295);
+    border: 2px solid rgb(180, 100, 3);
+    color: rgb(255, 151, 23);
+    text-decoration: underline;
 }
 
 div#formmoon {

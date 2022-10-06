@@ -6,6 +6,10 @@
         font-size: 1.03em;
     }
 
+    body {
+        background: linear-gradient(to bottom, #663300 15%, #cc6600 110%);
+    }
+
     div#formmoon {
         display: block;
         width: 70%;
@@ -81,6 +85,10 @@
 @media screen and (min-width:992px) and (max-width:1200px) {
     * {
         font-size: 1.03em;
+    }
+
+    body {
+        background: linear-gradient(to bottom, #663300 15%, #cc6600 110%);
     }
 
     div#formmoon {
@@ -159,6 +167,10 @@
 @media screen and (min-width:1200px) {
     * {
         font-size: 1.03em;
+    }
+
+    body {
+        background: linear-gradient(to bottom, #663300 15%, #cc6600 110%);
     }
 
     div#formmoon {
