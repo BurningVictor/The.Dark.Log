@@ -1,0 +1,233 @@
+@charset "UTF-8";
+
+/* Tablet --------------------------------------------------------------------- */
+@media screen and (min-width:768px) and (max-width:992px) {
+    * {
+        font-size: 1.03em;
+    }
+
+    div#formmoon {
+        display: block;
+        width: 70%;
+        padding: 15px;
+        float: right;
+    }
+    
+    div#imgsmoon  {
+        background: url(../imagens/the-dark-side-portrait.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: block;
+        width: 30%;  
+        height: 100%; 
+        float: left;
+    }
+
+    section {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+        background: white;
+        width: 96.5vw;
+        height: 64vh;
+        border-radius: 20px;
+        overflow: hidden;
+        display: inline-block;
+    }
+    
+    label > span {
+        background: rgba(255, 166, 0, 0.425);
+        height: 7vh;
+        width: 6.75%;
+        padding: 5px;
+        padding-top: 10px;
+        margin: 0;
+        text-align: center;
+    
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    form#loginmoon > p > input {
+        height: 7vh;
+        width: 92.25%;
+        margin-bottom: 8px;
+    }
+    
+    form#loginmoon > p > input.inputsmoon {
+        height: 8vh;
+        width: 100%;
+        margin-bottom: 12px;
+        
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-size: 1.8em;
+    }
+    
+    p.textologin {
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+}
+
+/* PC ------------------------------------------------------------------------- */
+@media screen and (min-width:992px) and (max-width:1200px) {
+    * {
+        font-size: 1.03em;
+    }
+
+    div#formmoon {
+        display: block;
+        width: 70%;
+        padding: 15px;
+        float: left;
+    }
+    
+    div#imgsmoon  {
+        background: url(../imagens/the-dark-side-portrait.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: block;
+        width: 30%;  
+        height: 100%; 
+        float: right;
+    }
+
+    section {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+        background: white;
+        width: 95vw;
+        height: 64vh;
+        border-radius: 20px;
+        overflow: hidden;
+        display: inline-block;
+    }
+    
+    label > span {
+        background: rgba(255, 166, 0, 0.425);
+        height: 7vh;
+        width: 6.75%;
+        padding: 5px;
+        padding-top: 10px;
+        margin: 0;
+        text-align: center;
+    
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    form#loginmoon > p > input {
+        height: 7vh;
+        width: 92.25%;
+        margin-bottom: 8px;
+    }
+    
+    form#loginmoon > p > input.inputsmoon {
+        height: 8vh;
+        width: 100%;
+        margin-bottom: 12px;
+        
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-size: 1.8em;
+    }
+    
+    p.textologin {
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+
+}
+
+/* TV ------------------------------------------------------------------------- */
+@media screen and (min-width:1200px) {
+    * {
+        font-size: 1.03em;
+    }
+
+    div#formmoon {
+        display: block;
+        width: 70%;
+        padding: 15px;
+        float: left;
+    }
+    
+    div#imgsmoon  {
+        background: url(../imagens/the-dark-side-portrait.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: block;
+        width: 30%;  
+        height: 100%; 
+        float: right;
+    }
+
+    section {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+        background: white;
+        width: 85vw;
+        height: 64vh;
+        border-radius: 20px;
+        overflow: hidden;
+        display: inline-block;
+    }
+    
+    label > span {
+        background: rgba(255, 166, 0, 0.425);
+        height: 7vh;
+        width: 6.75%;
+        padding: 5px;
+        padding-top: 10px;
+        margin: 0;
+        text-align: center;
+    
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    form#loginmoon > p > input {
+        height: 7vh;
+        width: 92.5%;
+        margin-bottom: 8px;
+    }
+    
+    form#loginmoon > p > input.inputsmoon {
+        height: 8vh;
+        width: 100%;
+        margin-bottom: 12px;
+        
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-size: 1.8em;
+    }
+    
+    p.textologin {
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+}
