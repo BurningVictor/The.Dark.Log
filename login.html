@@ -20,15 +20,15 @@
             <div id="formmoon">
                 <h1>Login</h1>
                 <p class="textologin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus provident perferendis architecto, maxime ea quos. Minima ad libero officia placeat nobis id? Earum sequi voluptatum molestiae? Natus maxime vitae magnam! lorem</p>
-                <form action="#" id="loginmoon">
+                <form action="cadastro.php" id="loginmoon" method="post" autocomplete="off">
                     <p class="acountmoon">
-                        <label for=""><span class="material-symbols-outlined">person</span></label>
-                        <input type="email" class="inputslogin" placeholder="  Seu email:" required>
+                        <label for="iemail"><span class="material-symbols-outlined">person</span></label>
+                        <input type="email" name="email" id="iemail" class="inputslogin" placeholder="  Your E-mail:" maxlength="30" minlength="5">
                     </p>
 
                     <p class="acountmoon">
-                        <label for=""><span class="material-symbols-outlined">vpn_key</span></label>
-                        <input type="password" class="inputslogin" placeholder="  Sua senha:" required>
+                        <label for="isenha"><span class="material-symbols-outlined">vpn_key</span></label>
+                        <input type="password" class="inputslogin" name="senha" id="isenha" placeholder="  Your Password:" required maxlength="20" minlength="8">
                     </p>
 
                     <p><input type="submit" value="Send" class="inputsmoon"></p>
