@@ -34,7 +34,7 @@ section {
 
     background: white;
     width: 80vw;
-    height: 85vh;
+    height: 86vh;
     border-radius: 20px;
     overflow: hidden;
     display: inline-block;
@@ -45,7 +45,12 @@ section {
 }
 
 p.acountmoon {
-    
+    margin-bottom: 5px;
+}
+
+input.inputslogin {
+    border-radius: 10px;
+    border: 1.5px solid black;
 }
 
 label > span {
@@ -54,12 +59,13 @@ label > span {
     width: 6.75vw;
     padding: 5px;
     padding-top: 10px;
-    margin: 0;
     text-align: center;
     
 
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 h1 {
@@ -74,13 +80,15 @@ p.textologin {
 
 form#loginmoon > p > input {
     height: 6vh;
-    width: 67vw;
+    /*width: 67vw;*/
+    width: 100%;
     margin-bottom: 8px;
 }
 
 form#loginmoon > p > input.inputsmoon {
     height: 7vh;
-    width: 74.6vw;
+    /*width: 74.6vw;*/
+    width: 100%;
     margin-bottom: 12px;
     background-color: rgb(255, 166, 0);
     border: 2px solid rgb(88, 24, 8);
